@@ -3,7 +3,7 @@
 Welcome to [ProxiedMail](https://proxiedmail.com) API client.
 You're welcome to [visit the docs](https://docs.proxiedmail.com).
 
-[Quickly jump into get started guide](#[getting-started)
+[Quickly jump into get started guide](#getting-started)
 
 ### Features
 
