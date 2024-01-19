@@ -1,8 +1,8 @@
 {
-  "name": "proxied_mail_api",
+  "name": "proxiedmail-api",
   "version": "1.0.0",
   "description": "ProxiedMail API",
-  "license": "GPL",
+  "license": "GPL-3.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
@@ -42,5 +42,24 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proxied-mail/proxiedmail-js-client.git"
+  },
+  "keywords": [
+    "proxiedmail",
+    "receive-email-js",
+    "js-email-webhook",
+    "js-email-callback"
+  ],
+  "author": "Alex Yatsenko",
+  "bugs": {
+    "url": "https://github.com/proxied-mail/proxiedmail-js-client/issues"
+  },
+  "homepage": "https://github.com/proxied-mail/proxiedmail-js-client#readme"
 }
