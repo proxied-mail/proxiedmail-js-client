@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a7d39e0-3dad-4fca-a482-5ccdd790a537" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.openapi-generator-ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.openapi-generator/FILES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.openapi-generator/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AddProxyBinding200Response.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AddProxyBinding200ResponseMeta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AddProxyBinding401ResponseInner.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AddProxyBinding401ResponseInnerData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AddProxyBinding401ResponseInnerDataAttributes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ApiApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ApiV1ApiTokenGet200Response.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ApiV1ProxyBindingsGet200Response.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ApiV1ProxyBindingsGet200ResponseMeta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AuthRequest.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AuthRequestData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AuthRequestDataAttributes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CallbackApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CreatedCallback.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/GetCallback.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/OauthAccessToken.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/OauthAccessTokenData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/OauthAccessTokenDataAttributes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/OauthAccessTokenDataRelationships.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/OauthAccessTokenDataRelationshipsUser.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/OauthAccessTokenDataRelationshipsUserData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/PatchProxyBindingRequestInner.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProxyBindingApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProxyBindingCreate.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProxyBindingCreateData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProxyBindingCreateDataAttributes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProxyBindingList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProxyBindingListAttributes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProxyBindingListAttributesRealAddressesValue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UserApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git_push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocha.opts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApiClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/ApiApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/CallbackApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/ProxyBindingApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/UserApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AddProxyBinding200Response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AddProxyBinding200ResponseMeta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AddProxyBinding401ResponseInner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AddProxyBinding401ResponseInnerData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AddProxyBinding401ResponseInnerDataAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ApiV1ApiTokenGet200Response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ApiV1ProxyBindingsGet200Response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ApiV1ProxyBindingsGet200ResponseMeta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AuthRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AuthRequestData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AuthRequestDataAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/CreatedCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/GetCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OauthAccessToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OauthAccessTokenData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OauthAccessTokenDataAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OauthAccessTokenDataRelationships.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OauthAccessTokenDataRelationshipsUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OauthAccessTokenDataRelationshipsUserData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PatchProxyBindingRequestInner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ProxyBindingCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ProxyBindingCreateData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ProxyBindingCreateDataAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ProxyBindingList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ProxyBindingListAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ProxyBindingListAttributesRealAddressesValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/api/ApiApi.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/api/CallbackApi.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/api/ProxyBindingApi.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/api/UserApi.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AddProxyBinding200Response.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AddProxyBinding200ResponseMeta.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AddProxyBinding401ResponseInner.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AddProxyBinding401ResponseInnerData.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AddProxyBinding401ResponseInnerDataAttributes.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ApiV1ApiTokenGet200Response.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ApiV1ProxyBindingsGet200Response.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ApiV1ProxyBindingsGet200ResponseMeta.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AuthRequest.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AuthRequestData.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/AuthRequestDataAttributes.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/CreatedCallback.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/GetCallback.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/OauthAccessToken.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/OauthAccessTokenData.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/OauthAccessTokenDataAttributes.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/OauthAccessTokenDataRelationships.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/OauthAccessTokenDataRelationshipsUser.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/OauthAccessTokenDataRelationshipsUserData.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/PatchProxyBindingRequestInner.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ProxyBindingCreate.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ProxyBindingCreateData.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ProxyBindingCreateDataAttributes.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ProxyBindingList.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ProxyBindingListAttributes.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/ProxyBindingListAttributesRealAddressesValue.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2au2vRL5V9PLsT5NC9WQieiRw5D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a7d39e0-3dad-4fca-a482-5ccdd790a537" name="Changes" comment="" />
+      <created>1705154373805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705154373805</updated>
+      <workItem from="1705154377136" duration="12264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
