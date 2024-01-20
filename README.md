@@ -181,9 +181,10 @@ function createProxyBindingPayload(callbackUrl) {
             "data":{
                 "type":"proxy_bindings",
                 "attributes":{
-                    "real_addresses":[
-                        "dawwaawdawd@proxiedmail-int.int"
-                    ],
+                    "real_addresses":[], //on empty it will generate internal real address
+                    //that kind of real addresses is not forwarding anything to any email
+                    //however if you need forwarding just use something like "abc@example.com"
+                    //please note that real address should be confirmed
                     "proxy_address": null,
                     "callback_url": callbackUrl
                 }
