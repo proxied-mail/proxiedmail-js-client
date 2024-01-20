@@ -21,12 +21,10 @@ You're welcome to [visit the docs](https://docs.proxiedmail.com).
 
 #### npm
 
-To publish the library as a [npm](https://www.npmjs.com/), please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.com/getting-started/publishing-npm-packages).
-
-Then install it via:
+Use to following command to install:
 
 ```shell
-npm install proxiedmail-api --save
+npm install proxiedmail-api
 ```
 
 

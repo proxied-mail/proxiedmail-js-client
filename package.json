@@ -1,6 +1,6 @@
 {
   "name": "proxiedmail-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ProxiedMail API",
   "license": "GPL-3.0",
   "main": "dist/index.js",
