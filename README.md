@@ -91,7 +91,87 @@ module: {
 
 ## Getting Started
 
-Please follow the [installation](#installation) instruction. 
+
+This is an example of receiving callback on received email.
+If you want to try it out just install the library in some test dir.
+Then don't forget to sign up in ProxiedMail to get your credentials or just put your existing auth credentials to the example.
+
+Let's say you copied to example to the file (t.js), then you can simply run the command in your terminal:
+```bash
+node t.js
+```
+
+The output will be the following after execution:
+```
+...
+check callback. email: 4d4b89991@proxiedmail.com
+GetCallback {
+  status: 'ok',
+  payload: null,
+  code: 'ok',
+  is_received: false,
+  method: null
+}
+...
+```
+
+Send the email to indicated email. Then you will get something like the following to your app (which indicates received email):
+```
+{
+   "status":"ok",
+   "payload":{
+      "id":"C83643D7-D500-0000-00003CC8",
+      "payload":{
+         "Content-Type":"multipart/alternative; boundary=\"0000000000007777f3060f55ba65\"",
+         "Date":"Sat, 20 Jan 2024 00:32:04 +0000",
+         "Dkim-Signature":"....",
+         "From":"Alex Yatsenko <yatsenkolesh@gmail.com>",
+         "Message-Id":"<CAJj9C9eGg30K+Dzo+1paV_L5L8Mdkm=4gA6oda1ygGrRmn5ngg@mail.gmail.com>",
+         "Mime-Version":"1.0",
+         "Received":"....",
+         "Subject":"hey hey",
+         "To":"ee71fb6c2@proxiedmail.com",
+         "body-html":"<div dir=\"ltr\">hello mate</div>\r\n",
+         "body-plain":"hello mate\r\n",
+         "domain":"proxiedmail.com",
+         "from":"Alex Yatsenko <yatsenkolesh@gmail.com>",
+         "recipient":"ee71fb6c2@proxiedmail.com",
+         "sender":"yatsenkolesh@gmail.com",
+         "signature":"ea0e415659f5bfbcd3d27a06806d6444005ed019656c9407e444872f0e64a0c2",
+         "stripped-html":"<div dir=\"ltr\">hello mate</div>\n",
+         "stripped-text":"hello mate",
+         "subject":"hey hey",
+         "timestamp":"1705710737",
+         "token":"7b6c2bba30f805bd01596016b748aaa9af43d9e748c4c2a67c"
+      },
+      "attachments":[
+         
+      ],
+      "recipient":{
+         "address":"ee71fb6c2@proxiedmail.com"
+      },
+      "receivedAt":"Sat Jan 20 2024 00:32:17 GMT+0000",
+      "user":{
+         "id":"1B3AAA43-0000-0000-00009BC6",
+         "username":"example-proxiedmail-user-email@com",
+         "token":"Bearer ..."
+      }
+   },
+   "code":"ok",
+   "is_received":true,
+   "method":"POST"
+}
+```
+
+
+Please follow the [installation](#installation) instruction. But basically it's:
+```shell
+npm install proxiedmail-api
+```
+
+
+
+
 Then you will be able to execute email receiving into your js application example:
 
 ```javascript
