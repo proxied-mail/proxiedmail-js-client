@@ -278,43 +278,51 @@ All URIs are relative to *http://proxiedmail.com*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*ProxiedMailApi.ApiApi* | [**apiV1ApiTokenGet**](docs/ApiApi.md#apiV1ApiTokenGet) | **GET** /api/v1/api-token | Auhtorization
+*ProxiedMailApi.ApiApi* | [**apiV1ApiTokenGet**](docs/ApiApi.md#apiV1ApiTokenGet) | **GET** /api/v1/api-token | Get api token
 *ProxiedMailApi.CallbackApi* | [**addCallback**](docs/CallbackApi.md#addCallback) | **POST** /api/v1/callback | Auhtorization
 *ProxiedMailApi.CallbackApi* | [**apiV1CallbackGetHashGet**](docs/CallbackApi.md#apiV1CallbackGetHashGet) | **GET** /api/v1/callback/get/{hash} | Auhtorization
-*ProxiedMailApi.ProxyBindingApi* | [**addProxyBinding**](docs/ProxyBindingApi.md#addProxyBinding) | **POST** /api/v1/proxy-bindings | Auhtorization
-*ProxiedMailApi.ProxyBindingApi* | [**apiV1ProxyBindingsGet**](docs/ProxyBindingApi.md#apiV1ProxyBindingsGet) | **GET** /api/v1/proxy-bindings | Auhtorization
-*ProxiedMailApi.ProxyBindingApi* | [**patchProxyBinding**](docs/ProxyBindingApi.md#patchProxyBinding) | **PATCH** /api/v1/proxy-bindings/{id} | Auhtorization
+*ProxiedMailApi.ProxyBindingApi* | [**addProxyBinding**](docs/ProxyBindingApi.md#addProxyBinding) | **POST** /api/v1/proxy-bindings | Create proxy-email
+*ProxiedMailApi.ProxyBindingApi* | [**apiV1ProxyBindingsGet**](docs/ProxyBindingApi.md#apiV1ProxyBindingsGet) | **GET** /api/v1/proxy-bindings | List of proxy emails
+*ProxiedMailApi.ProxyBindingApi* | [**patchProxyBinding**](docs/ProxyBindingApi.md#patchProxyBinding) | **PATCH** /api/v1/proxy-bindings/{id} | Update proxy-email
+*ProxiedMailApi.ReceivedEmailApi* | [**apiV1ReceivedEmailsLinksProxyBindingIdGet**](docs/ReceivedEmailApi.md#apiV1ReceivedEmailsLinksProxyBindingIdGet) | **GET** /api/v1/received-emails-links/{proxyBindingId} | Get received emails list by proxy email (last 55)
+*ProxiedMailApi.ReceivedEmailApi* | [**apiV1ReceivedEmailsReceivedEmailIdGet**](docs/ReceivedEmailApi.md#apiV1ReceivedEmailsReceivedEmailIdGet) | **GET** /api/v1/received-emails/{receivedEmailId} | Get content of received email by id
 *ProxiedMailApi.UserApi* | [**userAuth**](docs/UserApi.md#userAuth) | **POST** /api/v1/auth | Auhtorization
 
 
 ## Documentation for Models
 
- - [ProxiedMailApi.AddProxyBinding200Response](docs/AddProxyBinding200Response.md)
- - [ProxiedMailApi.AddProxyBinding200ResponseMeta](docs/AddProxyBinding200ResponseMeta.md)
- - [ProxiedMailApi.AddProxyBinding401ResponseInner](docs/AddProxyBinding401ResponseInner.md)
- - [ProxiedMailApi.AddProxyBinding401ResponseInnerData](docs/AddProxyBinding401ResponseInnerData.md)
- - [ProxiedMailApi.AddProxyBinding401ResponseInnerDataAttributes](docs/AddProxyBinding401ResponseInnerDataAttributes.md)
- - [ProxiedMailApi.ApiV1ApiTokenGet200Response](docs/ApiV1ApiTokenGet200Response.md)
- - [ProxiedMailApi.ApiV1ProxyBindingsGet200Response](docs/ApiV1ProxyBindingsGet200Response.md)
- - [ProxiedMailApi.ApiV1ProxyBindingsGet200ResponseMeta](docs/ApiV1ProxyBindingsGet200ResponseMeta.md)
- - [ProxiedMailApi.AuthRequest](docs/AuthRequest.md)
- - [ProxiedMailApi.AuthRequestData](docs/AuthRequestData.md)
- - [ProxiedMailApi.AuthRequestDataAttributes](docs/AuthRequestDataAttributes.md)
- - [ProxiedMailApi.CreatedCallback](docs/CreatedCallback.md)
- - [ProxiedMailApi.GetCallback](docs/GetCallback.md)
- - [ProxiedMailApi.OauthAccessToken](docs/OauthAccessToken.md)
- - [ProxiedMailApi.OauthAccessTokenData](docs/OauthAccessTokenData.md)
- - [ProxiedMailApi.OauthAccessTokenDataAttributes](docs/OauthAccessTokenDataAttributes.md)
- - [ProxiedMailApi.OauthAccessTokenDataRelationships](docs/OauthAccessTokenDataRelationships.md)
- - [ProxiedMailApi.OauthAccessTokenDataRelationshipsUser](docs/OauthAccessTokenDataRelationshipsUser.md)
- - [ProxiedMailApi.OauthAccessTokenDataRelationshipsUserData](docs/OauthAccessTokenDataRelationshipsUserData.md)
- - [ProxiedMailApi.PatchProxyBindingRequestInner](docs/PatchProxyBindingRequestInner.md)
- - [ProxiedMailApi.ProxyBindingCreate](docs/ProxyBindingCreate.md)
- - [ProxiedMailApi.ProxyBindingCreateData](docs/ProxyBindingCreateData.md)
- - [ProxiedMailApi.ProxyBindingCreateDataAttributes](docs/ProxyBindingCreateDataAttributes.md)
- - [ProxiedMailApi.ProxyBindingList](docs/ProxyBindingList.md)
- - [ProxiedMailApi.ProxyBindingListAttributes](docs/ProxyBindingListAttributes.md)
- - [ProxiedMailApi.ProxyBindingListAttributesRealAddressesValue](docs/ProxyBindingListAttributesRealAddressesValue.md)
+- [ProxiedMailApi.AddProxyBinding200Response](docs/AddProxyBinding200Response.md)
+- [ProxiedMailApi.AddProxyBinding200ResponseMeta](docs/AddProxyBinding200ResponseMeta.md)
+- [ProxiedMailApi.AddProxyBinding401ResponseInner](docs/AddProxyBinding401ResponseInner.md)
+- [ProxiedMailApi.AddProxyBinding401ResponseInnerData](docs/AddProxyBinding401ResponseInnerData.md)
+- [ProxiedMailApi.AddProxyBinding401ResponseInnerDataAttributes](docs/AddProxyBinding401ResponseInnerDataAttributes.md)
+- [ProxiedMailApi.ApiV1ApiTokenGet200Response](docs/ApiV1ApiTokenGet200Response.md)
+- [ProxiedMailApi.ApiV1ProxyBindingsGet200Response](docs/ApiV1ProxyBindingsGet200Response.md)
+- [ProxiedMailApi.ApiV1ProxyBindingsGet200ResponseMeta](docs/ApiV1ProxyBindingsGet200ResponseMeta.md)
+- [ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response](docs/ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response.md)
+- [ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200ResponseAttributes](docs/ApiV1ReceivedEmailsLinksProxyBindingIdGet200ResponseAttributes.md)
+- [ProxiedMailApi.ApiV1ReceivedEmailsReceivedEmailIdGet200Response](docs/ApiV1ReceivedEmailsReceivedEmailIdGet200Response.md)
+- [ProxiedMailApi.ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributes](docs/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributes.md)
+- [ProxiedMailApi.ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesAttachmentsInner](docs/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesAttachmentsInner.md)
+- [ProxiedMailApi.ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesPayload](docs/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesPayload.md)
+- [ProxiedMailApi.AuthRequest](docs/AuthRequest.md)
+- [ProxiedMailApi.AuthRequestData](docs/AuthRequestData.md)
+- [ProxiedMailApi.AuthRequestDataAttributes](docs/AuthRequestDataAttributes.md)
+- [ProxiedMailApi.CreatedCallback](docs/CreatedCallback.md)
+- [ProxiedMailApi.GetCallback](docs/GetCallback.md)
+- [ProxiedMailApi.OauthAccessToken](docs/OauthAccessToken.md)
+- [ProxiedMailApi.OauthAccessTokenData](docs/OauthAccessTokenData.md)
+- [ProxiedMailApi.OauthAccessTokenDataAttributes](docs/OauthAccessTokenDataAttributes.md)
+- [ProxiedMailApi.OauthAccessTokenDataRelationships](docs/OauthAccessTokenDataRelationships.md)
+- [ProxiedMailApi.OauthAccessTokenDataRelationshipsUser](docs/OauthAccessTokenDataRelationshipsUser.md)
+- [ProxiedMailApi.OauthAccessTokenDataRelationshipsUserData](docs/OauthAccessTokenDataRelationshipsUserData.md)
+- [ProxiedMailApi.PatchProxyBindingRequestInner](docs/PatchProxyBindingRequestInner.md)
+- [ProxiedMailApi.ProxyBindingCreate](docs/ProxyBindingCreate.md)
+- [ProxiedMailApi.ProxyBindingCreateData](docs/ProxyBindingCreateData.md)
+- [ProxiedMailApi.ProxyBindingCreateDataAttributes](docs/ProxyBindingCreateDataAttributes.md)
+- [ProxiedMailApi.ProxyBindingList](docs/ProxyBindingList.md)
+- [ProxiedMailApi.ProxyBindingListAttributes](docs/ProxyBindingListAttributes.md)
+- [ProxiedMailApi.ProxyBindingListAttributesRealAddressesValue](docs/ProxyBindingListAttributesRealAddressesValue.md)
 
 
 ## Documentation for Authorization

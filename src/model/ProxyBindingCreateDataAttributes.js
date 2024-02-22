@@ -53,6 +53,9 @@ class ProxyBindingCreateDataAttributes {
             if (data.hasOwnProperty('proxy_address')) {
                 obj['proxy_address'] = ApiClient.convertToType(data['proxy_address'], 'String');
             }
+            if (data.hasOwnProperty('is_browsable')) {
+                obj['is_browsable'] = ApiClient.convertToType(data['is_browsable'], 'Boolean');
+            }
             if (data.hasOwnProperty('callback_url')) {
                 obj['callback_url'] = ApiClient.convertToType(data['callback_url'], 'String');
             }
@@ -96,6 +99,11 @@ ProxyBindingCreateDataAttributes.prototype['real_addresses'] = undefined;
  * @member {String} proxy_address
  */
 ProxyBindingCreateDataAttributes.prototype['proxy_address'] = undefined;
+
+/**
+ * @member {Boolean} is_browsable
+ */
+ProxyBindingCreateDataAttributes.prototype['is_browsable'] = undefined;
 
 /**
  * @member {String} callback_url

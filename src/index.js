@@ -21,6 +21,12 @@ import AddProxyBinding401ResponseInnerDataAttributes from './model/AddProxyBindi
 import ApiV1ApiTokenGet200Response from './model/ApiV1ApiTokenGet200Response';
 import ApiV1ProxyBindingsGet200Response from './model/ApiV1ProxyBindingsGet200Response';
 import ApiV1ProxyBindingsGet200ResponseMeta from './model/ApiV1ProxyBindingsGet200ResponseMeta';
+import ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response from './model/ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response';
+import ApiV1ReceivedEmailsLinksProxyBindingIdGet200ResponseAttributes from './model/ApiV1ReceivedEmailsLinksProxyBindingIdGet200ResponseAttributes';
+import ApiV1ReceivedEmailsReceivedEmailIdGet200Response from './model/ApiV1ReceivedEmailsReceivedEmailIdGet200Response';
+import ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributes from './model/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributes';
+import ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesAttachmentsInner from './model/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesAttachmentsInner';
+import ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesPayload from './model/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesPayload';
 import AuthRequest from './model/AuthRequest';
 import AuthRequestData from './model/AuthRequestData';
 import AuthRequestDataAttributes from './model/AuthRequestDataAttributes';
@@ -42,6 +48,7 @@ import ProxyBindingListAttributesRealAddressesValue from './model/ProxyBindingLi
 import ApiApi from './api/ApiApi';
 import CallbackApi from './api/CallbackApi';
 import ProxyBindingApi from './api/ProxyBindingApi';
+import ReceivedEmailApi from './api/ReceivedEmailApi';
 import UserApi from './api/UserApi';
 
 
@@ -130,6 +137,42 @@ export {
      * @property {module:model/ApiV1ProxyBindingsGet200ResponseMeta}
      */
     ApiV1ProxyBindingsGet200ResponseMeta,
+
+    /**
+     * The ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response model constructor.
+     * @property {module:model/ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response}
+     */
+    ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response,
+
+    /**
+     * The ApiV1ReceivedEmailsLinksProxyBindingIdGet200ResponseAttributes model constructor.
+     * @property {module:model/ApiV1ReceivedEmailsLinksProxyBindingIdGet200ResponseAttributes}
+     */
+    ApiV1ReceivedEmailsLinksProxyBindingIdGet200ResponseAttributes,
+
+    /**
+     * The ApiV1ReceivedEmailsReceivedEmailIdGet200Response model constructor.
+     * @property {module:model/ApiV1ReceivedEmailsReceivedEmailIdGet200Response}
+     */
+    ApiV1ReceivedEmailsReceivedEmailIdGet200Response,
+
+    /**
+     * The ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributes model constructor.
+     * @property {module:model/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributes}
+     */
+    ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributes,
+
+    /**
+     * The ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesAttachmentsInner model constructor.
+     * @property {module:model/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesAttachmentsInner}
+     */
+    ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesAttachmentsInner,
+
+    /**
+     * The ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesPayload model constructor.
+     * @property {module:model/ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesPayload}
+     */
+    ApiV1ReceivedEmailsReceivedEmailIdGet200ResponseAttributesPayload,
 
     /**
      * The AuthRequest model constructor.
@@ -256,6 +299,12 @@ export {
     * @property {module:api/ProxyBindingApi}
     */
     ProxyBindingApi,
+
+    /**
+    * The ReceivedEmailApi service constructor.
+    * @property {module:api/ReceivedEmailApi}
+    */
+    ReceivedEmailApi,
 
     /**
     * The UserApi service constructor.

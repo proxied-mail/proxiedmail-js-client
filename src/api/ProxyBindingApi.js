@@ -47,7 +47,7 @@ export default class ProxyBindingApi {
      */
 
     /**
-     * Auhtorization
+     * Create proxy-email
      * 
      * @param {Object} opts Optional parameters
      * @param {Array.<module:model/ProxyBindingCreate>} [proxyBindingCreate] 
@@ -87,7 +87,7 @@ export default class ProxyBindingApi {
      */
 
     /**
-     * Auhtorization
+     * List of proxy emails
      * 
      * @param {module:api/ProxyBindingApi~apiV1ProxyBindingsGetCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/ApiV1ProxyBindingsGet200Response}
@@ -124,7 +124,7 @@ export default class ProxyBindingApi {
      */
 
     /**
-     * Auhtorization
+     * Update proxy-email
      * 
      * @param {String} id ID of proxy-email that needs to be fetched
      * @param {Object} opts Optional parameters

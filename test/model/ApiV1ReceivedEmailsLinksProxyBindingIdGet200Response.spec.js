@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
+    instance = new ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,34 +47,28 @@
       object[property] = value;
   }
 
-  describe('ProxyBindingCreateDataAttributes', function() {
-    it('should create an instance of ProxyBindingCreateDataAttributes', function() {
-      // uncomment below and update the code to test ProxyBindingCreateDataAttributes
-      //var instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
-      //expect(instance).to.be.a(ProxiedMailApi.ProxyBindingCreateDataAttributes);
+  describe('ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response', function() {
+    it('should create an instance of ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response', function() {
+      // uncomment below and update the code to test ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response
+      //var instance = new ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response();
+      //expect(instance).to.be.a(ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response);
     });
 
-    it('should have the property realAddresses (base name: "real_addresses")', function() {
-      // uncomment below and update the code to test the property realAddresses
-      //var instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
+    it('should have the property type (base name: "type")', function() {
+      // uncomment below and update the code to test the property type
+      //var instance = new ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response();
       //expect(instance).to.be();
     });
 
-    it('should have the property proxyAddress (base name: "proxy_address")', function() {
-      // uncomment below and update the code to test the property proxyAddress
-      //var instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
+    it('should have the property id (base name: "id")', function() {
+      // uncomment below and update the code to test the property id
+      //var instance = new ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response();
       //expect(instance).to.be();
     });
 
-    it('should have the property isBrowsable (base name: "is_browsable")', function() {
-      // uncomment below and update the code to test the property isBrowsable
-      //var instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property callbackUrl (base name: "callback_url")', function() {
-      // uncomment below and update the code to test the property callbackUrl
-      //var instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
+    it('should have the property attributes (base name: "attributes")', function() {
+      // uncomment below and update the code to test the property attributes
+      //var instance = new ProxiedMailApi.ApiV1ReceivedEmailsLinksProxyBindingIdGet200Response();
       //expect(instance).to.be();
     });
 
