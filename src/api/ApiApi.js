@@ -1,5 +1,6 @@
 /**
  * ProxiedMail API
+ * ProxiedMail API
  *
  * The version of the OpenAPI document: 1.0.0
  * 
@@ -42,7 +43,7 @@ export default class ApiApi {
      */
 
     /**
-     * Auhtorization
+     * Get api token
      * 
      * @param {module:api/ApiApi~apiV1ApiTokenGetCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/ApiV1ApiTokenGet200Response}

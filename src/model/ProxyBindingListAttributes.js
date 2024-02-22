@@ -54,6 +54,9 @@ class ProxyBindingListAttributes {
             if (data.hasOwnProperty('proxy_address')) {
                 obj['proxy_address'] = ApiClient.convertToType(data['proxy_address'], 'String');
             }
+            if (data.hasOwnProperty('is_browsable')) {
+                obj['is_browsable'] = ApiClient.convertToType(data['is_browsable'], 'Boolean');
+            }
             if (data.hasOwnProperty('received_emails')) {
                 obj['received_emails'] = ApiClient.convertToType(data['received_emails'], 'Number');
             }
@@ -117,6 +120,11 @@ ProxyBindingListAttributes.prototype['real_addresses'] = undefined;
  * @member {String} proxy_address
  */
 ProxyBindingListAttributes.prototype['proxy_address'] = undefined;
+
+/**
+ * @member {Boolean} is_browsable
+ */
+ProxyBindingListAttributes.prototype['is_browsable'] = undefined;
 
 /**
  * @member {Number} received_emails
