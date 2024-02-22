@@ -4,7 +4,7 @@ All URIs are relative to *http://proxiedmail.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**apiV1ApiTokenGet**](ApiApi.md#apiV1ApiTokenGet) | **GET** /api/v1/api-token | Auhtorization
+[**apiV1ApiTokenGet**](ApiApi.md#apiV1ApiTokenGet) | **GET** /api/v1/api-token | Get api token
 
 
 
@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 > ApiV1ApiTokenGet200Response apiV1ApiTokenGet()
 
-Auhtorization
+Get api token
 
 
 

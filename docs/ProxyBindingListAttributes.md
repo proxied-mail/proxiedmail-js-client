@@ -6,6 +6,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **realAddresses** | [**{String: ProxyBindingListAttributesRealAddressesValue}**](ProxyBindingListAttributesRealAddressesValue.md) |  | [optional] 
 **proxyAddress** | **String** |  | [optional] 
+**isBrowsable** | **Boolean** |  | [optional] 
 **receivedEmails** | **Number** |  | [optional] 
 **description** | **String** |  | [optional] 
 **callbackUrl** | **String** |  | [optional] 

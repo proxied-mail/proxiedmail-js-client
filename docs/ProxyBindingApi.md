@@ -4,9 +4,9 @@ All URIs are relative to *http://proxiedmail.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**addProxyBinding**](ProxyBindingApi.md#addProxyBinding) | **POST** /api/v1/proxy-bindings | Auhtorization
-[**apiV1ProxyBindingsGet**](ProxyBindingApi.md#apiV1ProxyBindingsGet) | **GET** /api/v1/proxy-bindings | Auhtorization
-[**patchProxyBinding**](ProxyBindingApi.md#patchProxyBinding) | **PATCH** /api/v1/proxy-bindings/{id} | Auhtorization
+[**addProxyBinding**](ProxyBindingApi.md#addProxyBinding) | **POST** /api/v1/proxy-bindings | Create proxy-email
+[**apiV1ProxyBindingsGet**](ProxyBindingApi.md#apiV1ProxyBindingsGet) | **GET** /api/v1/proxy-bindings | List of proxy emails
+[**patchProxyBinding**](ProxyBindingApi.md#patchProxyBinding) | **PATCH** /api/v1/proxy-bindings/{id} | Update proxy-email
 
 
 
@@ -14,7 +14,7 @@ Method | HTTP request | Description
 
 > AddProxyBinding200Response addProxyBinding(opts)
 
-Auhtorization
+Create proxy-email
 
 
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 
 > ApiV1ProxyBindingsGet200Response apiV1ProxyBindingsGet()
 
-Auhtorization
+List of proxy emails
 
 
 
@@ -114,7 +114,7 @@ This endpoint does not need any parameter.
 
 > AddProxyBinding200Response patchProxyBinding(id, opts)
 
-Auhtorization
+Update proxy-email
 
 
 
