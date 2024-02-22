@@ -66,6 +66,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property isBrowsable (base name: "is_browsable")', function() {
+      // uncomment below and update the code to test the property isBrowsable
+      //var instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
+      //expect(instance).to.be();
+    });
+
     it('should have the property callbackUrl (base name: "callback_url")', function() {
       // uncomment below and update the code to test the property callbackUrl
       //var instance = new ProxiedMailApi.ProxyBindingCreateDataAttributes();
