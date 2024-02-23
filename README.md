@@ -1,5 +1,7 @@
 # ProxiedMail JS client
 
+[NPM](https://www.npmjs.com/package/proxiedmail-api)
+
 Welcome to [ProxiedMail](https://proxiedmail.com) API client.
 You're welcome to [visit the docs](https://docs.proxiedmail.com).
 
