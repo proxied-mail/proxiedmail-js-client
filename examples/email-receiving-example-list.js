@@ -61,14 +61,14 @@ apiInstance.userAuth(authReq, (error, data, response) => {
                                 console.log("Checking inbox of: " + proxyBinding.body.data.attributes.proxy_address)
 
 
-                                console.log('zzzzhhhh', response.body)
+                                console.log('LIST OF EMAILS', response.body)
                                 for (let i in response.body.data) {
 
                                     receivedEmailApi.apiV1ReceivedEmailsReceivedEmailIdGet(
                                         response.body.data[i]['id'],
                                         function (error, pb, response) {
                                             console.log(
-                                                "RECEIVED EMAIL \n" +
+                                                "RECEIVED EMAIL \n",
                                                 response.body
                                             )
                                         }
