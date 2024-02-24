@@ -15,6 +15,7 @@ You're welcome to [visit the docs](https://docs.proxiedmail.com).
 
 🔴 Proxy-emails CRUD (create, read, update, todo: delete)
 
+🔴 Browsing received emails list
 
 
 ## Installation
