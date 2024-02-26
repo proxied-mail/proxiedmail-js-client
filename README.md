@@ -1,5 +1,7 @@
 # ProxiedMail JS client
 
+### This simple library will allow you to receive and read emails through your NodeJS application
+
 [NPM](https://www.npmjs.com/package/proxiedmail-api)
 
 Welcome to [ProxiedMail](https://proxiedmail.com) API client.
