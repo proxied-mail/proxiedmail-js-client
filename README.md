@@ -9,6 +9,8 @@ You're welcome to [visit the docs](https://docs.proxiedmail.com).
 
 [Quickly jump into get started guide](#getting-started)
 
+You can also check out the article [emails receiving emails in NodeJS](https://dev.to/yatsenkolesh/how-to-receive-email-with-nodejs-g1a)
+
 ### Features
 
 🔴 Authorization
