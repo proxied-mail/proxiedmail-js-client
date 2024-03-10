@@ -50,6 +50,7 @@ import CallbackApi from './api/CallbackApi';
 import ProxyBindingApi from './api/ProxyBindingApi';
 import ReceivedEmailApi from './api/ReceivedEmailApi';
 import UserApi from './api/UserApi';
+import ApiClientFacade from './ApiClientFacade'
 
 
 /**
@@ -310,5 +311,7 @@ export {
     * The UserApi service constructor.
     * @property {module:api/UserApi}
     */
-    UserApi
+    UserApi,
+
+    ApiClientFacade,
 };
