@@ -182,6 +182,8 @@ You can use create proxy-emails and browsing emails list via facade.
 Facade is a limited functionality. If you need more advanced features you can use advanced API.
 
 ```javascript
+let ProxiedMailApi = require('proxiedmail-api');
+
 let token = 'YOUR API TOKEN';
 const apiApiClient = new ProxiedMailApi.ApiClientFacade('ef23c45258d0d16239a583ed0a079cad');
 apiApiClient.createProxyEmail((pb) => {

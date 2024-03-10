@@ -1,3 +1,6 @@
+let ProxiedMailApi = require('proxiedmail-api');
+
+
 let token = 'YOUR API TOKEN';
 const apiApiClient = new ProxiedMailApi.ApiClientFacade('ef23c45258d0d16239a583ed0a079cad');
 apiApiClient.createProxyEmail((pb) => {
