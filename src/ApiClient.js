@@ -33,7 +33,7 @@ class ApiClient {
      * Overrides the default value set in spec file if present
      * @param {String} basePath
      */
-    constructor(basePath = 'http://proxiedmail.com') {
+    constructor(basePath = 'https://proxiedmail.com') {
         /**
          * The base URL against which to resolve every API call's (relative) path.
          * @type {String}
@@ -594,7 +594,7 @@ class ApiClient {
     hostSettings() {
         return [
             {
-              'url': "http://proxiedmail.com",
+              'url': "https://proxiedmail.com",
               'description': "No description provided",
             }
       ];
